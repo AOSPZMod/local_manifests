@@ -7,7 +7,7 @@
   <remove-project name="AOKP/device_lge_mako" />
   <remove-project name="AOKP/packages_apps_PackageInstaller" />
   <remove-project name="AOKP/packages_apps_Settings" />
-  <remove-project name="AOKP/packages_providers_MediaProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="aokp" revision="cm-10.1" />  
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
