@@ -7,6 +7,7 @@
   <remove-project name="AOKP/device_lge_mako" />
   <remove-project name="AOKP/packages_apps_PackageInstaller" />
   <remove-project name="AOKP/packages_apps_Settings" />
+  <remove-project name="AOKP/external_jbirdvegas_mGerrit" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="aokp" revision="cm-10.1" />  
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
@@ -14,7 +15,7 @@
   <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager"  remote="aokp" revision="cm-10.1" />
   <project name="AOKPZMod/packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="aokp" revision="jb-mr1" />
   <project name="AOKPZMod/packages_apps_Settings" path="packages/apps/Settings" remote="aokp" revision="jb-mr1-mod" />
-  <project name="AOKP/kernel_lge_mako" path="kernel/lge/mako"  remote="aokp" revision="jb-mr1" />
+  <project name="AOKPZMod/external_jbirdvegas_mGerrit" path="external/jbirdvegas/mGerrit" remote="aokp" revision="master" />
   <project name="AOKPZMod/packages_apps_PerformanceControl" path="packages/apps/PerformanceControl"  remote="aokp" revision="jb-mr1" />
   <project name="AOKPZMod/packages_apps_Phone" path="packages/apps/Phone"  remote="aokp" revision="jb-mr1-mod" />
   <project name="AOKPZMod/packages_apps_ROMControl" remote="aokp" revision="jb-mr1-mod" path="packages/apps/ROMControl"  />
