@@ -22,4 +22,5 @@
   <project name="AOKPZMod/frameworks_base" remote="aokp" revision="jb-mr1-mod" path="frameworks/base"  />
   <project name="AOKPZMod/packages_providers_MediaProvider" remote="aokp" revision="jb-mr1-mod" path="packages/providers/MediaProvider"  />
   <project name="AOKPZMod/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
+  <project name="AOKP/kernel_lge_mako" path="kernel/lge/mako"  remote="aokp" revision="jb-mr1" />
 </manifest>
