@@ -32,5 +32,5 @@
   <project name="AOKPZMod/packages_providers_MediaProvider" remote="aokp" revision="jb-mr1-mod" path="packages/providers/MediaProvider"  />
   <project name="AOKPZMod/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
   <project name="AOKPZMod/device_lge_mako" remote="aokp" path="device/lge/mako"  revision="jb-mr1" />
-  <project name="AOKP/kernel_lge_mako" path="kernel/lge/mako"  remote="aokp" revision="jb-mr1" />
+  <project name="CyanogenMod/lge-kernel-mako.git" path="kernel/lge/mako"  remote="aokp" revision="cm-10.1" />
 </manifest>
