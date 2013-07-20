@@ -10,6 +10,7 @@
   <remove-project name="AOKP/packages_apps_Settings" />
   <remove-project name="AOKP/external_jbirdvegas_mGerrit" />
   <remove-project name="AOKP/packages_providers_MediaProvider" />
+  <remove-project name="AOKP/device_lge_mako" />
   <remove-project name="platform/external/sepolicy" /> 
   <project name="CyanogenMod/android_external_sepolicy" path="external/sepolicy" remote="aokp" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="aokp" revision="cm-10.1" />  
@@ -30,5 +31,6 @@
   <project name="AOKPZMod/frameworks_base" remote="aokp" revision="jb-mr1-mod" path="frameworks/base"  />
   <project name="AOKPZMod/packages_providers_MediaProvider" remote="aokp" revision="jb-mr1-mod" path="packages/providers/MediaProvider"  />
   <project name="AOKPZMod/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
+  <project name="AOKPZMod/device_lge_mako" remote="aokp" path="device/lge/mako"  revision="jb-mr1" />
   <project name="AOKP/kernel_lge_mako" path="kernel/lge/mako"  remote="aokp" revision="jb-mr1" />
 </manifest>
