@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="AOKP/build"  />
+  <remove-project name="AOKP/system_core" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
@@ -18,6 +19,7 @@
   <project name="AOKPZMod/build" path="build"  remote="aokp" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="AOKPZMod/system_core" path="system/core"  remote="aokp" revision="jb-mr1" />
   <project name="AOKPZMod/packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="aokp" revision="jb-mr1" />
   <project name="AOKPZMod/packages_apps_Settings" path="packages/apps/Settings" remote="aokp" revision="jb-mr1-mod" />
   <project name="AOKPZMod/external_jbirdvegas_mGerrit" path="external/jbirdvegas/mGerrit" remote="aokp" revision="master" />
