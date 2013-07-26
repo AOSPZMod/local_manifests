@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
       <remote name="aospz" fetch="https://github.com/AOSPZMod"  revision="jb-mr2-mod"/>
+      <remote name="aokp"  fetch="https://github.com/"          review="gerrit.aokp.co" />
       
       <remove-project name="platform/frameworks/base" />
       <remove-project name="platform/packages/apps/Settings" />
@@ -9,4 +10,6 @@
       <project path="frameworks/base" name="frameworks_base" remote="aospz"/>
       <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospz" />
       <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider"  remote="aospz"/>
+      
+      <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr1" />
 </manifest>
