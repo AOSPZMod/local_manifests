@@ -1,34 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="AOKP/build"  />
-  <remove-project name="AOKP/system_core" />
-  <remove-project name="AOKP/vendor_aokp" />
-  <remove-project name="AOKP/frameworks_base" />
-  <remove-project name="AOKP/packages_apps_ROMControl" />
-  <remove-project name="AOKP/packages_apps_Phone" />
-  <remove-project name="AOKP/packages_apps_PackageInstaller" />
-  <remove-project name="AOKP/packages_apps_Settings" />
-  <remove-project name="AOKP/external_jbirdvegas_mGerrit" />
-  <remove-project name="AOKP/packages_providers_MediaProvider" />
-  <remove-project name="platform/external/sepolicy" /> 
-  <project name="CyanogenMod/android_external_sepolicy" path="external/sepolicy" remote="aokp" revision="cm-10.1" />
-  <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="aokp" revision="cm-10.1" />  
-  <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
-  <project name="CyanogenMod/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
-  <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager"  remote="aokp" revision="cm-10.1" />
-  <project name="AOKPZMod/build" path="build"  remote="aokp" revision="jb-mr1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project name="AOKPZMod/system_core" path="system/core"  remote="aokp" revision="jb-mr1" />
-  <project name="AOKPZMod/packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="aokp" revision="jb-mr1" />
-  <project name="AOKPZMod/packages_apps_Settings" path="packages/apps/Settings" remote="aokp" revision="jb-mr1-mod" />
-  <project name="AOKPZMod/external_jbirdvegas_mGerrit" path="external/jbirdvegas/mGerrit" remote="aokp" revision="master" />
-  <project name="AOKPZMod/packages_apps_PerformanceControl" path="packages/apps/PerformanceControl"  remote="aokp" revision="jb-mr1" />
-  <project name="AOKPZMod/packages_apps_Phone" path="packages/apps/Phone"  remote="aokp" revision="jb-mr1-mod" />
-  <project name="AOKPZMod/packages_apps_ROMControl" remote="aokp" revision="jb-mr1-mod" path="packages/apps/ROMControl"  />
-  <project name="AOKPZMod/HALO" remote="aokp" revision="jellybean" path="packages/apps/HALO"  />
-  <project name="AOKPZMod/frameworks_base" remote="aokp" revision="jb-mr1-mod" path="frameworks/base"  />
-  <project name="AOKPZMod/packages_providers_MediaProvider" remote="aokp" revision="jb-mr1-mod" path="packages/providers/MediaProvider"  />
-  <project name="AOKPZMod/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
-  <project name="CyanogenMod/lge-kernel-mako.git" path="kernel/lge/mako"  remote="aokp" revision="cm-10.1" />
 </manifest>
