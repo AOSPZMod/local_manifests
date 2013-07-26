@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
       <remote name="aospz" fetch="https://github.com/AOSPZMod"  revision="jb-mr2-mod"/>
+      
+      <remove-project name="platform/packages/apps/Settings" />
+      <remove-project name="platform/packages/providers/MediaProvider" />
+      
+      <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospz" />
+      <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider"  remote="aospz"/>
 </manifest>
