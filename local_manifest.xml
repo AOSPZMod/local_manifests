@@ -12,6 +12,7 @@
           <copyfile src="core/root.mk" dest="Makefile" />
       </project>
   
+      <project path="vendor/aospz" name="vendor_aospz" remote="aospz" revision="master"/>
       <project path="frameworks/base" name="frameworks_base" remote="aospz" revision="jb-mr2-mod"/>
       <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospz" revision="jb-mr2-mod"/>
       <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider"  remote="aospz" revision="jb-mr2-mod"/>
