@@ -3,10 +3,15 @@
       <remote name="aospz" fetch="https://github.com/AOSPZMod"  revision="jb-mr2-mod"/>
       <remote name="aokp"  fetch="https://github.com/"          review="gerrit.aokp.co" />
       
+      <remove-project name="platform/build" />
       <remove-project name="platform/frameworks/base" />
       <remove-project name="platform/packages/apps/Settings" />
       <remove-project name="platform/packages/providers/MediaProvider" />
-      
+
+      <project name="build" path="build"  remote="aospz" revision="jb-mr2-mod" >
+          <copyfile src="core/root.mk" dest="Makefile" />
+      </project>
+  
       <project path="frameworks/base" name="frameworks_base" remote="aospz" revision="jb-mr2-mod"/>
       <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospz" revision="jb-mr2-mod"/>
       <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider"  remote="aospz" revision="jb-mr2-mod"/>
