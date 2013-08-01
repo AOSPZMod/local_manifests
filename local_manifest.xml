@@ -19,7 +19,7 @@
       <project name="CyanogenMod/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
       <project path="local_manifests" name="local_manifests" remote="aospz" revision="jb-mr2-jwr66v-mod"/>
       <project path="vendor/aospz" name="vendor_aospz" remote="aospz" revision="master"/>
-      <project path="device/lge/mako" name="device_lg_mako" remote="aospz" revision="jb-mr2-jwr66v-mod"/>
+      <project path="device/lge/mako" name="device_lge_mako" remote="aospz" revision="jb-mr2-jwr66v-mod"/>
       <project path="frameworks/base" name="frameworks_base" remote="aospz" revision="jb-mr2-jwr66v-mod"/>
       <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospz" revision="jb-mr2-jwr66v-mod"/>
       <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider"  remote="aospz" revision="jb-mr2-jwr66v-mod"/>    
