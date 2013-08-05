@@ -7,6 +7,7 @@
       <remove-project name="platform/build" />
       <remove-project name="platform/frameworks/base" />
       <remove-project name="platform/packages/apps/Settings" />
+      <remove-project name="platform/packages/apps/Phone" />
       <remove-project name="platform/packages/providers/MediaProvider" />
       <remove-project name="platform/packages/apps/Music" />
       <remove-project name="device/lge/mako" />
@@ -21,6 +22,7 @@
       <project path="vendor/aospz" name="vendor_aospz" remote="aospz" revision="master"/>
       <project path="device/lge/mako" name="device_lge_mako" remote="aospz" revision="jb-mr2-jwr66v-mod"/>
       <project path="frameworks/base" name="frameworks_base" remote="aospz" revision="jb-mr2-jwr66v-mod"/>
+      <project path="packages/apps/Phone" name="packages_apps_Phone" remote="aospz" revision="jb-mr2-jwr66v-mod"/>
       <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospz" revision="jb-mr2-jwr66v-mod"/>
       <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider"  remote="aospz" revision="jb-mr2-jwr66v-mod"/>    
 </manifest>
